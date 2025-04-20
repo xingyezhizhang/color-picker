@@ -1,0 +1,31 @@
+.slider {
+  width: 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 2px #00000080;
+  border: 1px solid #ffffff;
+  transform: translateX(-1px);
+  position: absolute;
+  top: 0;
+}
+
+.strip {
+  width: 12px;
+  height: 100%;
+  position: relative;
+}
+
+select {
+  padding: 2px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 12px;
+  width: 52px;
+  position: relative;
+}
+
+option {
+  background: #fff;
+}

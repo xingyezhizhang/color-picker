@@ -1,0 +1,15 @@
+.hue-strip-wrapper {
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.hue {
+  background: linear-gradient(180deg,
+      #f00 0,
+      #ff0 17%,
+      #0f0 33%,
+      #0ff 50%,
+      #00f 67%,
+      #f0f 83%,
+      #f00);
+}

@@ -1,0 +1,11 @@
+@import url(./common.css);
+@import url(./picker-box.css);
+@import url(./color-panel.css);
+@import url(./color-edit.css);
+@import url(./pre-define-color.css);
+
+test {
+  visibility:hidden;
+  visibility:visible;
+  display: block;
+}

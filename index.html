@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ColorPicker</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="./js/color.js"></script>
+</head>
+
+<body>
+  <div class="picker-box-container">
+    <div class="color-picker-box" style="--color:transparent;">
+      <!-- 有颜色值 -->
+      <div class="color-picker-arrow">∟</div>
+      <!-- 无颜色值 -->
+      <div class="color-picker-no">&times;</div>
+    </div>
+  </div>
+  <div class="color-picker-container">
+    <div class="color-plate">
+      <!-- 主色板 -->
+      <div class="color-priming" style="--color:#f00;">
+        <div class="white-mask"></div>
+        <div class="black-mask"></div>
+        <div class="plate-cursor"></div>
+      </div>
+      <!-- 色相条 -->
+      <div class="hue-strip-wrapper">
+        <div class="strip hue">
+          <div class="slider"></div>
+        </div>
+      </div>
+      <!-- 透明度条 -->
+      <div class="alpha-strip-wrapper">
+        <div class="strip alpha" style="--color:#f00;">
+          <div class="slider"></div>
+        </div>
+      </div>
+    </div>
+    <!-- 编辑输入 -->
+    <div class="edit-container">
+      <!-- TODO: 下拉框样式待优化 -->
+      <select name="model" id="color-model">
+        <option value="HSL">HSL</option>
+        <option value="HEX">HEX</option>
+        <option value="RGB">RGB</option>
+      </select>
+      <input type="text" class="color-input">
+      <div class="btn-group">
+        <button type="button" class="color-edit-btn color-clear">清空</button>
+        <button type="button" class="color-edit-btn color-sure">确定</button>
+      </div>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

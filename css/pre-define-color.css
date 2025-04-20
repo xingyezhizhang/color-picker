@@ -1,0 +1,40 @@
+.pre-define-color-container {
+  width: 280px;
+  font-size: 12px;
+  margin-top: 8px;
+  display: flex;
+}
+
+.pre-define-color {
+  margin: 0 0 8px 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid #9b979b;
+  cursor: pointer;
+}
+
+.pre-define-color:first-child {
+  margin: 0;
+  color: #333333a8;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+
+}
+
+.pre-define-color:not(:first-child):hover {
+  opacity: 0.8;
+}
+
+.define-disabled {
+  cursor: not-allowed;
+}
+
+.define-alpha {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==");
+}
+
+.define-color-active {
+  box-shadow: 0 0 3px 2px #409eff;
+}
